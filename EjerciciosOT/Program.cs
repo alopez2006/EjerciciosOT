@@ -46,15 +46,22 @@ namespace EjerciciosOT
             //ApexAnalisis analisis = new ApexAnalisis();
             //Console.WriteLine(analisis.GetValue());
 
-            ApexSingleton apexSingleton1 = ApexSingleton.GetInstance();
-            ApexSingleton apexSingleton2 = ApexSingleton.GetInstance();
+            //ApexSingleton apexSingleton1 = ApexSingleton.GetInstance();
+            //ApexSingleton apexSingleton2 = ApexSingleton.GetInstance();
 
-            Console.WriteLine(apexSingleton2.Message);
-            apexSingleton2.Message = "Updated";
+            //Console.WriteLine(apexSingleton2.Message);
+            //apexSingleton2.Message = "Updated";
 
-            Console.WriteLine($"Message in apexSingleton1: { apexSingleton1.Message }");
-            Console.WriteLine($"Message in apexSingleton2: { apexSingleton2.Message }");
+            //Console.WriteLine($"Message in apexSingleton1: { apexSingleton1.Message }");
+            //Console.WriteLine($"Message in apexSingleton2: { apexSingleton2.Message }");
+
+            //int[] nodes = { 3, 3, -1, 2, 2 };
+            int[] nodes = { 5, 6, 6, 2, 3, -1, 2 };
+
+            Console.WriteLine($"Complete nodes: { Asignet.GetFullNodes(nodes) }");
         }
+
+        
 
         public static int multiplyNumbers(int number1, int number2)
         {
